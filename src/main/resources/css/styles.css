@@ -1,0 +1,50 @@
+.footer {
+	-fx-background-color: #6666AA;
+}
+
+.table-view {
+	-fx-base: #CCCCDD;
+	-fx-control-inner-background: #CCCCDD;
+	-fx-background-color: #6666AA;
+	-fx-table-cell-border-color: #222266;
+	-fx-table-header-border-color: #222266;
+	-fx-padding: 5;
+	-fx-text-background-color: #6666AA;
+}
+
+.table-view > .column-header-background {
+	-fx-background-color: #6666AA;
+	-fx-text-background-color: #EEEEFF;
+}
+
+.table-view > .column-header-background > .filler {
+	-fx-background-color: #6666AA;
+}
+
+.table-view > .column-header-background > .nested-column-header > .column-header.table-column {
+	-fx-background-color: #6666AA;
+
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+	-fx-background-color: #9999DD;
+	-fx-text-background-color: #EEEEFF;
+	-fx-font-weight: bold;
+}
+
+.table-row-cell:filled:selected {
+	-fx-background-color: #BBBBFF;
+	-fx-font-weight: bold;
+}
+
+.footer {
+	-fx-border-color: #CCCCDD;
+    -fx-border-style: solid;
+    -fx-border-width: 3;
+}
+
+.button {
+	-fx-text-fill: #6666AA;
+	-fx-font-weight: bold;
+}
+
